@@ -67,7 +67,7 @@ function ProjectSingle(props) {
 										>
 											<span>{info.title}: </span>
 											<a
-												href="https://stoman.me"
+												href="https://github.com/Misa100/" //github
 												className={
 													info.title === 'Website' ||
 													info.title === 'Phone'
@@ -116,7 +116,7 @@ function ProjectSingle(props) {
 						return (
 							<p
 								key={details.id}
-								className="font-general-regular text-lg text-ternary-dark dark:text-ternary-light"
+								className="font-general-regular text-lg text-ternary-dark dark:text-ternary-light mb-2"
 							>
 								{details.url}
 							</p>
