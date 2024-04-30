@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
+import Butterfly from '../reusable/Butterfly'
 
 function AppBanner() {
 	const [activeTheme] = useThemeSwitcher();
@@ -78,6 +79,7 @@ function AppBanner() {
 					width={350}
 					height={150}
 				/>
+				<Butterfly />
 			</motion.div>
 		</motion.section>
 	);

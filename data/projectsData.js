@@ -301,7 +301,7 @@ export const projectsData = [
 		title: 'Career Managing',
 		url: 'cloud-storage-platform',
 		category: 'Web Application',
-		img: '/images/ui-project-2.jpg',
+		img: '/images/accueil-1.png',
 		ProjectHeader: {
 			title: 'Career Managing',
 			publishDate: 'Jul 26, 2021',
@@ -311,17 +311,17 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/ui-project-1.jpg',
+				img: '/images/accueil-1.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/web-project-2.jpg',
+				img: '/images/parametrage-10.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/mobile-project-2.jpg',
+				img: '/images/savoir_faire-1.png',
 			},
 		],
 		ProjectInfo: {
@@ -361,6 +361,7 @@ export const projectsData = [
 						'Angular',
 						'Bootstrap',
 						'Nodejs',
+						'TypeScript',
 						'PostgreSQL'
 					],
 				},
