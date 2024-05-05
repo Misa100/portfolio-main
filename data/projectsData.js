@@ -6,7 +6,7 @@ export const projectsData = [
 		title: 'Book store online',
 		url: 'google-health-platform',
 		category: 'Web Application',
-		img: '/images/web-project-2.png',
+		img: '/images/web-project-14.png',
 		ProjectHeader: {
 			title: 'Bookly',
 			publishDate: 'Jul 26, 2021',
@@ -16,17 +16,17 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Bookly',
-				img: '/images/ui-project-1-8.png',
+				img: '/images/ui-project-20.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Bookly',
-				img: '/images/ui-project-2-6.png',
+				img: '/images/ui-project-21.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Bookly',
-				img: '/images/ui-project-3-7.png',
+				img: '/images/ui-project-22.png',
 			},
 		],
 		ProjectInfo: {
@@ -101,7 +101,7 @@ export const projectsData = [
 		title: 'Blog Experience',
 		url: 'google-health-platform',
 		category: 'UI/UX Design',
-		img: '/images/web-project-1.png',
+		img: '/images/web-project-18.png',
 		ProjectHeader: {
 			title: 'Blog Experience',
 			publishDate: 'Jul 26, 2021',
@@ -111,17 +111,17 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Blog Experience',
-				img: '/images/ui-project-1-11.png',
+				img: '/images/ui-project-30.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Blog Experience',
-				img: '/images/ui-project-2-11.png',
+				img: '/images/ui-project-31.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Blog Experience',
-				img: '/images/ui-project-3-11.png',
+				img: '/images/ui-project-32.png',
 			},
 		],
 		ProjectInfo: {
@@ -201,7 +201,7 @@ export const projectsData = [
 		title: 'Login with Dashboard',
 		url: 'project-management-ui',
 		category: 'Web Application',
-		img: '/images/web-project-3-10.png',
+		img: '/images/web-project-17.png',
 		ProjectHeader: {
 			title: 'Login with Dashboard',
 			publishDate: 'Jul 26, 2021',
@@ -211,17 +211,17 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Login with Dashboard',
-				img: '/images/ui-project-1-13.png',
+				img: '/images/ui-project-44.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Login with Dashboard',
-				img: '/images/ui-project-2-15.png',
+				img: '/images/ui-project-42.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Login with Dashboard',
-				img: '/images/ui-project-2-13.png',
+				img: '/images/ui-project-43.png',
 			},
 		],
 		ProjectInfo: {
@@ -301,7 +301,7 @@ export const projectsData = [
 		title: 'Career Managing',
 		url: 'cloud-storage-platform',
 		category: 'Web Application',
-		img: '/images/accueil-1.png',
+		img: '/images/accueil-2.png',
 		ProjectHeader: {
 			title: 'Career Managing',
 			publishDate: 'Jul 26, 2021',
@@ -311,17 +311,17 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/accueil-1.png',
+				img: '/images/ui-project-50.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/parametrage-10.png',
+				img: '/images/ui-project-51.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/savoir_faire-1.png',
+				img: '/images/ui-project-52.png',
 			},
 		],
 		ProjectInfo: {
