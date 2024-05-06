@@ -18,6 +18,7 @@ const butterflyVariants = (offsetX, offsetY) => ({
 
 const Butterfly = ({ offsetX, offsetY }) => (
   <motion.img
+  className="hidden sm:block"
     variants={butterflyVariants(offsetX, offsetY)}
     initial="initial"
     animate="animate"
@@ -36,9 +37,9 @@ const Butterfly = ({ offsetX, offsetY }) => (
 const Butterflies = () => {
   return (
     <>
-      <Butterfly offsetX={0} offsetY={0} />
-      <Butterfly offsetX={20} offsetY={20} />
-      <Butterfly offsetX={-20} offsetY={-20} />
+      <Butterfly offsetX={10} offsetY={40} />
+      <Butterfly offsetX={-20} offsetY={-50} />
+      <Butterfly offsetX={30} offsetY={60} />
     </>
   );
 };
