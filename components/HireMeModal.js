@@ -1,12 +1,24 @@
 import { motion } from 'framer-motion';
 import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
+import emailjs from 'emailjs-com';
 
 const selectOptions = [
 	'Web Application',
 	'UI/UX Design',
 	'Branding',
 ];
+
+function sendEmail(e) {
+	e.preventDefault();
+	emailjs.sendForm('service_z2fsoza', 'template_zfpggqg', e.target, 'eNUIcla1Ai0fl-Hzs')
+	    .then((result) => {
+		   console.log('Email successfully sent!', result.text);
+		   onClose();
+	    }, (error) => {
+		   console.log('Failed to send email:', error.text);
+	    });
+ }
 
 function HireMeModal({ onClose, onRequest }) {
 	return (
@@ -35,12 +47,7 @@ function HireMeModal({ onClose, onRequest }) {
 							</button>
 						</div>
 						<div className="modal-body p-5 w-full h-full">
-							<form
-								onSubmit={(e) => {
-									e.preventDefault();
-								}}
-								className="max-w-xl m-4 text-left"
-							>
+						<form onSubmit={sendEmail} className="max-w-xl m-4 text-left">
 								<div className="">
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
