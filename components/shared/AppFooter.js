@@ -1,6 +1,6 @@
 import {
 	FiGithub,
-	FiTwitter,
+	FiInstagram,
 	FiLinkedin,
 	FiFacebook,
 } from 'react-icons/fi';
@@ -10,22 +10,22 @@ const socialLinks = [
 	{
 		id: 2,
 		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/Misa100',
 	},
 	{
 		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		icon: <FiInstagram />,
+		url: 'https://www.instagram.com/steeve_andria_?igsh=MW5sazRkcTZscnR1Zw==',
 	},
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		url: 'https://www.linkedin.com/in/misa-ravololonantenaina-82786b199/',
 	},
 	{
 		id: 5,
 		icon: <FiFacebook />,
-		url: 'https://www.youtube.com/c/realstoman',
+		url: 'https://www.facebook.com/nantenainamisa',
 	},
 ];
 
