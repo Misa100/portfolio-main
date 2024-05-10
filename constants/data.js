@@ -15,18 +15,18 @@ const userData = {
         desc: "Master's degree in Computer Science with honors",
       },
       {
+        title: "Web Editor",
+        company: "Data Work Pro",
+        year: "2022",
+        companyLink : "https://www.dataworkpro.com/",
+        desc: "Writing a blog with Wordpress using SEO",
+      },
+      {
         title: "Bachelor",
         company: "Athénée Saint Joseph Antsirabe",
         year: "2021",
         companyLink: "https://www.asja.mg/",
         desc: "Bachelor of Computer Science and Engineering",
-      },
-      {
-        title: "Web Editor",
-        company: "Data Work Pro",
-        year: "2020",
-        companyLink : "https://www.dataworkpro.com/",
-        desc: "Writing a blog with Wordpress using SEO",
       },
       {
         title: "Founder robotics club",
@@ -47,6 +47,13 @@ const userData = {
         year: "2019",
         companyLink: "https://robotex.international/",
         desc: "4-member team of which I was the leader, we create two robot for the topic : one to put out fire, and one a line follower that avoid obstacle",
+      },
+      {
+        title: "Volunteer",
+        company: "STEM4GOOD",
+        year: "2019",
+        companyLink: "https://stem4good.org/",
+        desc: "Teaching French institutions in Madagascar the principle of programming",
       },
       {
         title: "High School",
