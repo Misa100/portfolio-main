@@ -113,15 +113,18 @@ function ProjectSingle(props) {
 							{props.project.ProjectInfo.SocialSharingHeading}
 						</p>
 						{props.project.ProjectInfo.SocialSharing.map((details) => {
-						return (
-							<p
-								key={details.id}
-								className="font-general-regular text-lg text-ternary-dark dark:text-ternary-light mb-2"
-							>
-								{details.url}
-							</p>
-						);
-					})}
+							return (
+								<a
+									key={details.id}
+									href={details.url}
+									className="font-general-regular text-lg text-ternary-dark dark:text-ternary-light mb-2"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									{details.url}
+								</a>
+							);
+						})}
 					</div>
 				</div>
 

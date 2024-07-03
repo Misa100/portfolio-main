@@ -3,13 +3,13 @@ import { v4 as uuidv4 } from 'uuid';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Book store online',
+		title: 'Online Book Store',
 		url: 'google-health-platform',
 		category: 'Web Application',
 		img: '/images/web-project-14.png',
 		ProjectHeader: {
 			title: 'Bookly',
-			publishDate: 'Jul 26, 2021',
+			publishDate: '2021',
 			tags: 'FullStack / Web app',
 		},
 		ProjectImages: [
@@ -394,12 +394,12 @@ export const projectsData = [
 				// {
 				// 	id: uuidv4(),
 				// 	name: 'Twitter',
-				// 	url: 'https://twitter.com/realstoman',
+				// 	url: 'https://twitter.com/steeve_andria',
 				// },
 				// {
 				// 	id: uuidv4(),
 				// 	name: 'Instagram',
-				// 	url: 'https://instagram.com/realstoman',
+				// 	url: 'https://instagram.com/steeve_andria',
 				// },
 			],
 		},
