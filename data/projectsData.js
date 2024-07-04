@@ -104,7 +104,7 @@ export const projectsData = [
 		img: '/images/web-project-18.png',
 		ProjectHeader: {
 			title: 'Blog Experience',
-			publishDate: 'Jul 26, 2021',
+			publishDate: '2023',
 			tags: 'UI / Frontend',
 		},
 		ProjectImages: [
@@ -204,7 +204,7 @@ export const projectsData = [
 		img: '/images/web-project-17.png',
 		ProjectHeader: {
 			title: 'Login with Dashboard',
-			publishDate: 'Jul 26, 2021',
+			publishDate: '2024',
 			tags: 'FullStack / Web App',
 		},
 		ProjectImages: [
@@ -304,7 +304,7 @@ export const projectsData = [
 		img: '/images/accueil-2.png',
 		ProjectHeader: {
 			title: 'Career Managing',
-			publishDate: 'Jul 26, 2021',
+			publishDate: 'January 2024',
 			tags: 'FullStack / Web App',
 		},
 		ProjectImages: [
@@ -400,6 +400,112 @@ export const projectsData = [
 				// 	id: uuidv4(),
 				// 	name: 'Instagram',
 				// 	url: 'https://instagram.com/steeve_andria',
+				// },
+			],
+		},
+	}, 
+	{
+		id: 5,
+		title: 'Monitoring quality control',
+		url: 'monitoring-quality-control',
+		category: 'Web Application',
+		img: '/images/web-project-27.png',
+		ProjectHeader: {
+			title: 'Monitoring quality control',
+			publishDate: 'May 2024',
+			tags: 'FullStack / Web App',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Monitoring quality control',
+				img: '/images/web-project-40.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Monitoring quality control',
+				img: '/images/web-project-41.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Monitoring quality control',
+				img: '/images/web-project-42.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Project',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Luminess',
+				},
+				{
+					id: uuidv4(),
+					title: 'Services',
+					details: 'FullStack Development',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://www.luminess.eu/',
+				},
+				{
+					id: uuidv4(),
+					title: 'Phone',
+					details: '+33 1 44 76 54 40',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'HTML',
+						'CSS',
+						'Angular',
+						'Bootstrap',
+						'Typescript',
+						'Nodejs',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details:
+						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+				},
+			],
+			SocialSharingHeading: '',
+			SocialSharing: [
+				// {
+				// 	id: uuidv4(),
+				// 	name: 'Twitter',
+				// 	url: 'https://github.com/Misa100/login-dashboard.git',
+				// },
+				// {
+				// 	id: uuidv4(),
+				// 	name: 'Instagram',
+				// 	url: 'https://login-dashboard-gamma.vercel.app/login',
 				// },
 			],
 		},
