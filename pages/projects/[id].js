@@ -135,12 +135,9 @@ function ProjectSingle(props) {
 					</p>
 					{props.project.ProjectInfo.ProjectDetails.map((details) => {
 						return (
-							<p
-								key={details.id}
-								className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-							>
-								{details.details}
-							</p>
+							<div key={details.id} className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light">
+								{Array.isArray(details.details) ? ( details.details.map((detail, index) => (index === 0 ? (<p key={index} className="font-semi-bold italic">{detail}</p>) : (<p key={index}>- {detail}</p>)))) : (<p>{details.details}</p>)}
+						  	</div>
 						);
 					})}
 				</div>
