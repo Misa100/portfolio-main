@@ -5,7 +5,7 @@ const userData = {
         company: "Luminess Madagscar",
         year: "2024",
         companyLink: "https://www.luminess.eu/",
-        desc: "Creation and design of a career management website for HR staff",
+        desc: "Designed and developed a career management website for HR staff, followed by a three-month project to create and design a quality control monitoring website.",
       },
       {
         title: "Master",
