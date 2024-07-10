@@ -546,4 +546,101 @@ export const projectsData = [
 			],
 		},
 	},
+	{
+		id: 6,
+		title: 'HelloWorld App',
+		url: 'monitoring-quality-control',
+		category: 'Application Mobile',
+		img: '/images/web-project-27.png',
+		ProjectHeader: {
+			title: 'HelloWorld App (In progress)',
+			publishDate: 'May 2024',
+			tags: 'FullStack / Web App',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'HelloWorld App',
+				img: '/images/web-project-60.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'HelloWorld App',
+				img: '/images/web-project-61.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'HelloWorld App',
+				img: '/images/web-project-65.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Project',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'HelloWorldApp',
+				},
+				{
+					id: uuidv4(),
+					title: 'Link',
+					details: 'https://github.com/Misa100/', //github
+				},
+				{
+					id: uuidv4(),
+					title: 'Phone',
+					details: '+261 38 53 967 57',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Create a simple mobile application with Ionic and Angular 16, displaying "Hello World" on a mobile device.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Ionic',
+						'Typescript',
+						'Angular',
+						'Bootstrap',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details: [
+						'Skills highlighted:',
+						'Discovering Ionic and Angular 16: Learning Ionic and Angular 16 technologies for hybrid mobile application development.',
+						'Angular-like data structure: Use of existing Angular skills to facilitate learning the Ionic data structure.',
+						'Ionic-specific syntax: Master Ionic-specific syntax and concepts to create mobile user interfaces.',
+						'Creating an Android application with Ionic Capacitor: Use Ionic Capacitor to generate a native Android application from Ionic code.',
+						'Mobile development with Android Studio: Familiarity with Android Studio and Android development tools.',
+						'TypeScript and code reduction: Appreciation of the conciseness and efficiency of TypeScript code in mobile application development.',
+					]
+				},
+				{
+					id: uuidv4(),
+					details: [
+						'Project highlights:',
+						'First Ionic mobile application: Production of a functional mobile application, demonstrating basic skills in Ionic and Angular 16.',
+						'Continuous Ionic learning: Commitment to deepen Ionic knowledge to create more complex mobile applications.',
+						'Simple and intuitive user interface: Clear and concise display of the "Hello World" message on the mobile screen.',
+						'Solid foundation in mobile development: Previous experience in Java and Android Studio, making it easy to learn Ionic.',
+						'Efficient TypeScript code: Appreciation of the advantages of the TypeScript language for mobile development.',
+					]
+				},
+			],
+			SocialSharingHeading: '',
+			SocialSharing: [
+				{
+					id: uuidv4(),
+					name: 'Twitter',
+					url: 'https://github.com/Misa100/ionic_app_h_w'
+				},
+			],
+		},
+	},
 ];
