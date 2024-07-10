@@ -60,6 +60,7 @@ export const projectsData = [
 						'JavaScript',
 						'PHP',
 						'Mysql',
+						'XAMPP'
 					],
 				},
 			],
@@ -83,7 +84,7 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					details: [
-						'Highlights:',
+						'General Highlights:',
 						'Comprehensive user and product management system',
 						'Secure and efficient ordering process',
 						'Intuitive, responsive user interface',
