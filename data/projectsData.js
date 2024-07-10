@@ -57,7 +57,6 @@ export const projectsData = [
 					techs: [
 						'HTML',
 						'CSS',
-						'JavaScript',
 						'PHP',
 						'Mysql',
 						'XAMPP'
