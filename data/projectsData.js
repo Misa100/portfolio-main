@@ -416,16 +416,11 @@ export const projectsData = [
 			],
 			SocialSharingHeading: '',
 			SocialSharing: [
-				// {
-				// 	id: uuidv4(),
-				// 	name: 'Twitter',
-				// 	url: 'https://twitter.com/steeve_andria',
-				// },
-				// {
-				// 	id: uuidv4(),
-				// 	name: 'Instagram',
-				// 	url: 'https://instagram.com/steeve_andria',
-				// },
+				{
+					id: uuidv4(),
+					name: 'Twitter',
+					url: 'https://github.com/Misa100/gestion_carriere.git',
+				},
 			],
 		},
 	}, 
@@ -533,16 +528,11 @@ export const projectsData = [
 			],
 			SocialSharingHeading: '',
 			SocialSharing: [
-				// {
-				// 	id: uuidv4(),
-				// 	name: 'Twitter',
-				// 	url: 'https://github.com/Misa100/login-dashboard.git',
-				// },
-				// {
-				// 	id: uuidv4(),
-				// 	name: 'Instagram',
-				// 	url: 'https://login-dashboard-gamma.vercel.app/login',
-				// },
+				{
+					id: uuidv4(),
+					name: 'Twitter',
+					url: 'https://github.com/Misa100/suivi_cq.git',
+				},
 			],
 		},
 	},
