@@ -430,7 +430,7 @@ export const projectsData = [
 		title: 'Monitoring quality control',
 		url: 'monitoring-quality-control',
 		category: 'Web Application',
-		img: '/images/web-project-27.png',
+		img: '/images/web-project-28.png',
 		ProjectHeader: {
 			title: 'Monitoring quality control',
 			publishDate: 'May 2024',
