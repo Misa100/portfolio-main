@@ -15,7 +15,7 @@ const socialLinks = [
 	{
 		id: 3,
 		icon: <FiInstagram />,
-		url: 'https://www.instagram.com/steeve_andria_?igsh=MW5sazRkcTZscnR1Zw==',
+		url: 'https://www.instagram.com/nantenaina._misa?igsh=bzR3djN0ajZxbjZh',
 	},
 	{
 		id: 4,
