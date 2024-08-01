@@ -210,29 +210,29 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'Login with Dashboard',
+		title: 'Google OAuth & Material UI',
 		url: 'project-management-ui',
 		category: 'Web Application',
 		img: '/images/web-project-17.png',
 		ProjectHeader: {
-			title: 'Login with Dashboard',
+			title: 'Google OAuth & Material UI',
 			publishDate: '2024',
 			tags: 'FullStack / Web App',
 		},
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'Login with Dashboard',
+				title: 'Google OAuth & Material UI',
 				img: '/images/ui-project-44.png',
 			},
 			{
 				id: uuidv4(),
-				title: 'Login with Dashboard',
+				title: 'Google OAuth & Material UI',
 				img: '/images/ui-project-42.png',
 			},
 			{
 				id: uuidv4(),
-				title: 'Login with Dashboard',
+				title: 'Google OAuth & Material UI',
 				img: '/images/ui-project-43.png',
 			},
 		],
@@ -242,7 +242,7 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					title: 'Name',
-					details: 'Login with Dashboard',
+					details: 'Google OAuth & Material UI',
 				},
 				{
 					id: uuidv4(),
@@ -541,9 +541,9 @@ export const projectsData = [
 	{
 		id: 6,
 		title: 'HelloWorld App',
-		url: 'monitoring-quality-control',
+		url: 'hello-world-app',
 		category: 'Application Mobile',
-		img: '/images/web-project-27.png',
+		img: '/images/web-project-30.png',
 		ProjectHeader: {
 			title: 'HelloWorld App (In progress)',
 			publishDate: 'May 2024',
