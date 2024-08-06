@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FiClock, FiTag } from 'react-icons/fi';
+import { FiClock, FiTag, FiArrowLeft } from 'react-icons/fi';
 import PagesMetaHead from '../../components/PagesMetaHead';
 import { projectsData } from '../../data/projectsData';
 import RelatedProjects from '../../components/projects/RelatedProjects';
@@ -11,9 +11,17 @@ function ProjectSingle(props) {
 
 			{/* Header */}
 			<div>
-				<p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
-					{props.project.ProjectHeader.title}
-				</p>
+				<div className="flex row items-center justify-between justify-items-center">
+					<p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
+						{props.project.ProjectHeader.title}
+					</p>
+					<button
+						onClick={() => window.history.back()}
+						className="flex items-center text-primary-dark dark:text-primary-light dark:bg-ternary-dark bg-ternary-light p-2 rounded-md hover:bg-opacity-80 transition mt-14 sm:mt-20"
+					>
+						<FiArrowLeft className="text-xs sm:text-xl" />
+					</button>
+				</div>
 				<div className="flex">
 					<div className="flex items-center mr-10">
 						<FiClock className="text-xl text-ternary-dark dark:text-ternary-light" />
