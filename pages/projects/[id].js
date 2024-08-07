@@ -19,7 +19,7 @@ function ProjectSingle(props) {
 						onClick={() => window.history.back()}
 						className="flex items-center text-primary-dark dark:text-primary-light dark:bg-ternary-dark bg-ternary-light p-2 rounded-md hover:bg-opacity-80 transition mt-14 sm:mt-20"
 					>
-						<FiArrowLeft className="text-xs sm:text-xl" />
+						<FiArrowLeft className="text-l sm:text-xl" />
 					</button>
 				</div>
 				<div className="flex">
