@@ -4,7 +4,7 @@ export const projectsData = [
 	{
 		id: 1,
 		title: 'Online Book Store',
-		url: 'google-health-platform',
+		url: 'online-book-store',
 		category: 'Web Application',
 		img: '/images/web-project-14.png',
 		ProjectHeader: {
@@ -96,7 +96,7 @@ export const projectsData = [
 			SocialSharing: [
 				{
 					id: uuidv4(),
-					name: 'Twitter',
+					name: 'Github',
 					url: 'https://github.com/Misa100/book-store.git',
 				},
 			],
@@ -105,7 +105,7 @@ export const projectsData = [
 	{
 		id: 2,
 		title: 'Blog Experience',
-		url: 'google-health-platform',
+		url: 'blog-experience',
 		category: 'UI/UX Design',
 		img: '/images/web-project-18.png',
 		ProjectHeader: {
@@ -197,12 +197,12 @@ export const projectsData = [
 			SocialSharing: [
 				{
 					id: uuidv4(),
-					name: 'Twitter',
+					name: 'Github',
 					url: 'https://github.com/Misa100/nextjs-blog.git',
 				},
 				{
 					id: uuidv4(),
-					name: 'Instagram',
+					name: 'Vercel',
 					url: 'https://nextjs-blog-seven-woad-64.vercel.app/',
 				},
 			],
@@ -299,12 +299,12 @@ export const projectsData = [
 			SocialSharing: [
 				{
 					id: uuidv4(),
-					name: 'Twitter',
+					name: 'Github',
 					url: 'https://github.com/Misa100/login-dashboard.git',
 				},
 				{
 					id: uuidv4(),
-					name: 'Instagram',
+					name: 'Vercel',
 					url: 'https://login-dashboard-gamma.vercel.app/login',
 				},
 			],
@@ -313,9 +313,9 @@ export const projectsData = [
 	{
 		id: 4,
 		title: 'Career Managing',
-		url: 'cloud-storage-platform',
+		url: 'career-managing',
 		category: 'Web Application',
-		img: '/images/accueil-2.png',
+		img: '/images/accueil-3.png',
 		ProjectHeader: {
 			title: 'Career Managing',
 			publishDate: 'January 2024',
@@ -415,11 +415,11 @@ export const projectsData = [
 					]
 				},
 			],
-			SocialSharingHeading: '',
+			SocialSharingHeading: 'Links',
 			SocialSharing: [
 				{
 					id: uuidv4(),
-					name: 'Twitter',
+					name: 'Github',
 					url: 'https://github.com/Misa100/gestion_carriere.git',
 				},
 			],
@@ -528,11 +528,11 @@ export const projectsData = [
 					]
 				},
 			],
-			SocialSharingHeading: '',
+			SocialSharingHeading: 'Links',
 			SocialSharing: [
 				{
 					id: uuidv4(),
-					name: 'Twitter',
+					name: 'Github',
 					url: 'https://github.com/Misa100/suivi_cq.git',
 				},
 			],
@@ -625,12 +625,116 @@ export const projectsData = [
 					]
 				},
 			],
-			SocialSharingHeading: '',
+			SocialSharingHeading: 'Links',
 			SocialSharing: [
 				{
 					id: uuidv4(),
-					name: 'Twitter',
+					name: 'Github',
 					url: 'https://github.com/Misa100/ionic_app_h_w'
+				},
+			],
+		},
+	},
+	{
+		id: 7,
+		title: 'Todo App',
+		url: 'todo-app',
+		category: 'Web Application',
+		img: '/images/web-project-33.png',
+		ProjectHeader: {
+			title: 'Todo App (In progress)',
+			publishDate: 'July 2024',
+			tags: 'FullStack / Web App',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Todo App',
+				img: '/images/web-project-70.png',
+			},
+			// {
+			// 	id: uuidv4(),
+			// 	title: 'Todo App',
+			// 	img: '/images/web-project-61.png',
+			// },
+			// {
+			// 	id: uuidv4(),
+			// 	title: 'Todo App',
+			// 	img: '/images/web-project-65.png',
+			// },
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Project',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Todo App',
+				},
+				{
+					id: uuidv4(),
+					title: 'Link',
+					details: 'https://github.com/Misa100/', //github
+				},
+				{
+					id: uuidv4(),
+					title: 'Phone',
+					details: '+261 38 53 967 57',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Create a simple mobile application with Ionic and Angular 16, displaying "Hello World" on a mobile device.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'React',
+						'Django',
+						'CSS',
+						'Bootstrap',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details: [
+						'Skills highlighted:',
+						'React & Django Integration: Developed a Todo app using React for the front end and Django REST framework for the back end.',
+						'Deployment Mastery: Deployed the Django backend using Gunicorn on Render, ensuring a seamless integration with the React front end.',
+						'First React Project: Gained foundational skills in React, exploring React hooks and further advancing with clean architecture practices.',
+						'SOLID & Clean Code Principles: Implemented best practices, including the Singleton pattern, SOLID principles (SRP, OCP, LSP, DIP), and CI/CD deployment.',
+						'Database Management: Utilized SQLite for managing Todo data efficiently within the app.',
+					]
+				},
+				{
+					id: uuidv4(),
+					details: [
+						'Project highlights:',
+						'Comprehensive Todo Management: Created a fully functional Todo application allowing users to display todos, modify titles, toggle completion status, add new todos, and delete existing ones.',
+						'Continuous React Learning: Leveraged this project as a stepping stone to deepen React knowledge and apply advanced coding principles.',
+						'Intuitive User Experience: Ensured a user-friendly interface for managing tasks, emphasizing clear and responsive design.',
+					]
+				},
+			],
+			SocialSharingHeading: 'Links',
+			SocialSharing: [
+				{
+					id: uuidv4(),
+					name: 'Github',
+					url: 'https://github.com/Misa100/todo_app_react_django.git'
+				},
+				{
+					id: uuidv4(),
+					name: 'Vercel',
+					url: 'https://todo-app-react-django.vercel.app/'
+				},
+				{
+					id: uuidv4(),
+					name: 'Render',
+					url: 'https://todo-app-react-django.onrender.com'
 				},
 			],
 		},

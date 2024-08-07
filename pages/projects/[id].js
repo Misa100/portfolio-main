@@ -125,11 +125,12 @@ function ProjectSingle(props) {
 								<a
 									key={details.id}
 									href={details.url}
-									className="font-general-regular text-lg text-ternary-dark dark:text-ternary-light mb-2"
+									className="font-general-regular text-lg text-ternary-dark dark:text-ternary-light mb-2 block break-words"
 									target="_blank"
 									rel="noopener noreferrer"
+									style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}
 								>
-									{details.url}
+								{details.url}
 								</a>
 							);
 						})}
