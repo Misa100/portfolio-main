@@ -3,6 +3,10 @@ import { FiClock, FiTag, FiArrowLeft } from 'react-icons/fi';
 import PagesMetaHead from '../../components/PagesMetaHead';
 import { projectsData } from '../../data/projectsData';
 import RelatedProjects from '../../components/projects/RelatedProjects';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 function ProjectSingle(props) {
 	return (
@@ -39,116 +43,149 @@ function ProjectSingle(props) {
 			</div>
 
 			{/* Gallery */}
-			<div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
-				{props.project.ProjectImages.map((project) => {
-					return (
-						<div className="mb-10 sm:mb-0" key={project.id}>
-							<Image
-								src={project.img}
-								className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
-								alt={project.title}
-								key={project.id}
-								layout="responsive"
-								width={100}
-								height={90}
-							/>
-						</div>
-					);
-				})}
+			<div className="mt-12">
+				<Swiper
+					modules={[Pagination]}
+					spaceBetween={20}
+					slidesPerView={1}
+					autoHeight={false}
+					pagination={{ clickable: true }}
+					className="mySwiper"
+				>
+					{props.project.ProjectImages.map((project) => (
+					<SwiperSlide key={project.id}>
+						<Image
+						src={project.img}
+						className="rounded-xl cursor-pointer shadow-lg mb-12 xl:mb-10 2xl:mb-10"
+						alt={project.title}
+						layout="intrinsic"
+						width={2000}
+						height={90}
+						/>
+					</SwiperSlide>
+					))}
+				</Swiper>
 			</div>
 
 			{/* Info */}
-			<div className="block sm:flex gap-0 sm:gap-10 mt-14">
+			<div className="block sm:flex gap-0 sm:gap-10 mt-10">
 				<div className="w-full sm:w-1/3 text-left">
 					{/* Single project client details */}
-					<div className="mb-7">
-						<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
+					<div className="mb-7 p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg">
+						<p className="font-general-regular text-2xl font-semibold text-white mb-4 border-b-2 border-white pb-2">
 							{props.project.ProjectInfo.ClientHeading}
 						</p>
 						<ul className="leading-loose">
-							{props.project.ProjectInfo.CompanyInfo.map(
-								(info) => {
-									return (
-										<li
-											className="font-general-regular text-ternary-dark dark:text-ternary-light"
-											key={info.id}
-										>
-											<span>{info.title}: </span>
-											<a
-												href="https://github.com/Misa100/" //github
-												className={
-													info.title === 'Website' ||
-													info.title === 'Phone'
-														? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
-														: ''
-												}
-												aria-label="Project Website and Phone"
-											>
-												{info.details}
-											</a>
-										</li>
-									);
-								}
-							)}
+							{props.project.ProjectInfo.CompanyInfo.map((info) => {
+								const isLink = info.title === 'Link';
+								const isPhone = info.title === 'Phone';
+								return (
+								<li
+									className="font-general-regular text-white dark:text-ternary-light mb-2"
+									key={info.id}
+								>
+									<span className="dark:bg-secondary-dark bg-slate-200 rounded px-2 py-1 mr-2">
+									{info.title}:
+									</span>
+									{isLink ? (
+									<a
+										href={info.details}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"
+										aria-label="Project Website"
+									>
+										{info.details}
+									</a>
+									) : isPhone ? (
+									<span
+										className="hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"
+										aria-label="Phone Number"
+									>
+										{info.details}
+									</span>
+									) : (
+									<span>{info.details}</span>
+									)}
+								</li>
+								);
+							})}
 						</ul>
 					</div>
 
 					{/* Single project objectives */}
-					<div className="mb-7">
-						<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
+					<div className="mb-7 p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg">
+						<p className="font-general-regular text-2xl font-semibold text-white mb-4 border-b-2 border-white pb-2">
 							{props.project.ProjectInfo.ObjectivesHeading}
 						</p>
-						<p className="font-general-regular text-primary-dark dark:text-ternary-light">
+						<p className="font-general-regular text-lg text-white leading-relaxed">
 							{props.project.ProjectInfo.ObjectivesDetails}
 						</p>
 					</div>
 
 					{/* Single project technologies */}
-					<div className="mb-7">
-						<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
+					<div className="mb-7 p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg">
+						<p className="font-general-regular text-2xl font-semibold text-white mb-4 border-b-2 border-white pb-2">
 							{props.project.ProjectInfo.Technologies[0].title}
 						</p>
-						<p className="font-general-regular text-primary-dark dark:text-ternary-light">
-							{props.project.ProjectInfo.Technologies[0].techs.join(
-								', '
-							)}
+						<p className="font-general-regular text-lg text-white leading-relaxed">
+							{props.project.ProjectInfo.Technologies[0].techs.join(', ')}
 						</p>
 					</div>
 
 					{/* Single project social sharing */}
-					<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-						<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-							{props.project.ProjectInfo.SocialSharingHeading}
-						</p>
-						{props.project.ProjectInfo.SocialSharing.map((details) => {
-							return (
-								<a
-									key={details.id}
-									href={details.url}
-									className="font-general-regular text-lg text-ternary-dark dark:text-ternary-light mb-2 block break-words"
-									target="_blank"
-									rel="noopener noreferrer"
-									style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}
-								>
-								{details.url}
-								</a>
-							);
-						})}
+					<div className="text-left mt-10">
+						<div className="p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg">
+							<p className="font-general-regular text-2xl font-semibold text-white mb-4 border-b-2 border-white pb-2">
+								{props.project.ProjectInfo.SocialSharingHeading}
+							</p>
+							{props.project.ProjectInfo.SocialSharing.map((details) => {
+								return (
+									<a
+										key={details.id}
+										href={details.url}
+										className="font-general-regular text-lg text-white hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 mb-3 block break-words"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="Social Media Link"
+									>
+										{details.url}
+									</a>
+								);
+							})}
+						</div>
 					</div>
 				</div>
 
-				{/*  Single project right section details */}
+				{/* Single project right section details */}
 				<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-					<p className="text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
-						{props.project.ProjectInfo.ProjectDetailsHeading}
-					</p>
-					{props.project.ProjectInfo.ProjectDetails.map((details) => {
-						return (
-							<div key={details.id} className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light">
-								{Array.isArray(details.details) ? ( details.details.map((detail, index) => (index === 0 ? (<p key={index} className="font-semi-bold italic">{detail}</p>) : (<p key={index}>- {detail}</p>)))) : (<p>{details.details}</p>)}
-						  	</div>
-						);
-					})}
+					<div className="p-6 bg-gradient-to-r from-purple-500 to-blue-600 rounded-lg shadow-lg">
+						<p className="text-white text-2xl font-bold mb-7">
+							{props.project.ProjectInfo.ProjectDetailsHeading}
+						</p>
+						{props.project.ProjectInfo.ProjectDetails.map((details) => {
+							return (
+								<div key={details.id} className="font-general-regular mb-5 text-lg text-white">
+									{Array.isArray(details.details) ? (
+										details.details.map((detail, index) => (
+											<p
+												key={index}
+												className={`${
+													index === 0
+													? 'bg-ternary-dark rounded p-3 mb-4 shadow-md'
+													: 'ml-4 mb-4 hover:bg-slate-800 hover:text-indigo-300 transition-all duration-300'
+												}`}
+											>
+												 {detail}
+											</p>
+										))
+									) : (
+										<p>{details.details}</p>
+									)}
+								</div>
+							);
+						})}
+					</div>
 				</div>
 			</div>
 

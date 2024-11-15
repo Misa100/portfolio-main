@@ -6,7 +6,7 @@ export const projectsData = [
 		title: 'Online Book Store',
 		url: 'online-book-store',
 		category: 'Web Application',
-		img: '/images/web-project-14.png',
+		img: '/images/web-project-20.png',
 		ProjectHeader: {
 			title: 'Bookly',
 			publishDate: '2021',
@@ -16,17 +16,22 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Bookly',
-				img: '/images/ui-project-20.png',
+				img: '/images/book-1.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Bookly',
-				img: '/images/ui-project-21.png',
+				img: '/images/book-2.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Bookly',
-				img: '/images/ui-project-22.png',
+				img: '/images/book-3.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Bookly',
+				img: '/images/book-4.png',
 			},
 		],
 		ProjectInfo: {
@@ -67,11 +72,6 @@ export const projectsData = [
 			ProjectDetails: [
 				{
 					id: uuidv4(),
-					details:
-						'Bookly" e-commerce website: I designed and developed a complete e-commerce website for book sales, integrating advanced features such as user, product, order and message management. This project demonstrates my mastery of fullstack development with PHP, HTML, CSS, MySQL and XAMPP.',
-				},
-				{
-					id: uuidv4(),
 					details: [
 						'Skills highlighted:',
 						'Robust back-end development with PHP and MySQL',
@@ -107,7 +107,7 @@ export const projectsData = [
 		title: 'Blog Experience',
 		url: 'blog-experience',
 		category: 'UI/UX Design',
-		img: '/images/web-project-18.png',
+		img: '/images/web-project-37.png',
 		ProjectHeader: {
 			title: 'Blog Experience',
 			publishDate: '2023',
@@ -117,17 +117,22 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Blog Experience',
-				img: '/images/ui-project-30.png',
+				img: '/images/blog-1.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Blog Experience',
-				img: '/images/ui-project-31.png',
+				img: '/images/blog-2.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Blog Experience',
-				img: '/images/ui-project-32.png',
+				img: '/images/blog-3.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Blog Experience',
+				img: '/images/blog-4.png',
 			},
 		],
 		ProjectInfo: {
@@ -169,13 +174,6 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					details: [
-						'Challenge Taken:', 
-						'Master emerging Next.js and Tailwind CSS technologies to develop a responsive, high-performance blog website, showcasing your modern front-end development skills.',
-					]
-				},
-				{
-					id: uuidv4(),
-					details: [
 						'Skills highlighted:',
 						'Mastering Next.js and Tailwind CSS: Learning and effectively using these modern JavaScript frameworks to create high-performance, responsive user interfaces.',
 						'Implementing responsive design: Creating an optimal user experience on all devices, from desktops to smartphones.',
@@ -213,7 +211,7 @@ export const projectsData = [
 		title: 'Google OAuth & Material UI',
 		url: 'project-management-ui',
 		category: 'Web Application',
-		img: '/images/web-project-17.png',
+		img: '/images/web-project-27.png',
 		ProjectHeader: {
 			title: 'Google OAuth & Material UI',
 			publishDate: '2024',
@@ -223,17 +221,17 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Google OAuth & Material UI',
-				img: '/images/ui-project-44.png',
+				img: '/images/login-1.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Google OAuth & Material UI',
-				img: '/images/ui-project-42.png',
+				img: '/images/login-2.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Google OAuth & Material UI',
-				img: '/images/ui-project-43.png',
+				img: '/images/login-3.png',
 			},
 		],
 		ProjectInfo: {
@@ -280,7 +278,6 @@ export const projectsData = [
 						"Intuitive user interface with Angular Material UI: Creation of an attractive, user-friendly interface using Angular Material UI's Material Design components.",
 						"Sidenav responsive with Bootstrap: Design of a side menu adaptable to all screen sizes, using Bootstrap's responsive grids and classes.",
 						"Organized software architecture: Structuring code with Angular components and services, favoring maintainability and reusability.",
-						"Mastery of Bootstrap components: Efficient use of various Bootstrap components to create an intuitive and interactive design",
 					]
 				},
 				{
@@ -291,7 +288,6 @@ export const projectsData = [
 						'Elegant and functional user interface: Intuitive and attractive design, enhancing user experience and site navigation.',
 						'Flexible and accessible Sidenav: Side menu adaptable to all devices, facilitating access to the different sections of the site.',
 						'Organized, structured code: Clear, organized code structure, facilitating collaboration and future maintenance.',
-						'Responsive and adaptive design: Optimal display on all screen sizes, from desktops to smartphones.',
 					]
 				},
 			],
@@ -315,7 +311,7 @@ export const projectsData = [
 		title: 'Career Managing',
 		url: 'career-managing',
 		category: 'Web Application',
-		img: '/images/accueil-3.png',
+		img: '/images/gestion carriere-2.png',
 		ProjectHeader: {
 			title: 'Career Managing',
 			publishDate: 'January 2024',
@@ -325,17 +321,17 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/ui-project-50.png',
+				img: '/images/carriere-1.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/ui-project-51.png',
+				img: '/images/carriere-2.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Career Managing',
-				img: '/images/ui-project-52.png',
+				img: '/images/carriere-3.png',
 			},
 		],
 		ProjectInfo: {
@@ -385,10 +381,6 @@ export const projectsData = [
 			ProjectDetails: [
 				{
 					id: uuidv4(),
-					details: "I am proud to share that this project marks my inaugural professional experience, and I am honored to have successfully brought it to completion."
-				},
-				{
-					id: uuidv4(),
 					details: [
 						'Skills highlighted:',
 						'JavaScript fullstack development: Mastery of front-end and back-end JavaScript technologies to create a high-performance, scalable web application.',
@@ -430,7 +422,7 @@ export const projectsData = [
 		title: 'Monitoring quality control',
 		url: 'monitoring-quality-control',
 		category: 'Web Application',
-		img: '/images/web-project-28.png',
+		img: '/images/web-project-45.png',
 		ProjectHeader: {
 			title: 'Monitoring quality control',
 			publishDate: 'May 2024',
@@ -440,17 +432,22 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Monitoring quality control',
-				img: '/images/web-project-40.png',
+				img: '/images/suivi-1.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Monitoring quality control',
-				img: '/images/web-project-41.png',
+				img: '/images/suivi-2.png',
 			},
 			{
 				id: uuidv4(),
 				title: 'Monitoring quality control',
-				img: '/images/web-project-42.png',
+				img: '/images/suivi-3.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Monitoring quality control',
+				img: '/images/suivi-4.png',
 			},
 		],
 		ProjectInfo: {
@@ -498,11 +495,6 @@ export const projectsData = [
 			ProjectDetails: [
 				{
 					id: uuidv4(),
-					details:
-						'This is my second project at the company, and I am proud to have completed it independently. A senior developer only set up the basics (table, date filter for deliveries, button), which were not yet functional, and I developed everything from there.',
-				},
-				{
-					id: uuidv4(),
 					details: [
 						'Skills highlighted:',
 						'Desktop to Web Migration: Transforming legacy applications into modern web experiences.',
@@ -538,109 +530,109 @@ export const projectsData = [
 			],
 		},
 	},
-	{
-		id: 6,
-		title: 'HelloWorld App',
-		url: 'hello-world-app',
-		category: 'Application Mobile',
-		img: '/images/web-project-30.png',
-		ProjectHeader: {
-			title: 'HelloWorld App (In progress)',
-			publishDate: 'May 2024',
-			tags: 'FullStack / Web App',
-		},
-		ProjectImages: [
-			{
-				id: uuidv4(),
-				title: 'HelloWorld App',
-				img: '/images/web-project-60.png',
-			},
-			{
-				id: uuidv4(),
-				title: 'HelloWorld App',
-				img: '/images/web-project-61.png',
-			},
-			{
-				id: uuidv4(),
-				title: 'HelloWorld App',
-				img: '/images/web-project-65.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'About Project',
-			CompanyInfo: [
-				{
-					id: uuidv4(),
-					title: 'Name',
-					details: 'HelloWorldApp',
-				},
-				{
-					id: uuidv4(),
-					title: 'Link',
-					details: 'https://github.com/Misa100/', //github
-				},
-				{
-					id: uuidv4(),
-					title: 'Phone',
-					details: '+261 38 53 967 57',
-				},
-			],
-			ObjectivesHeading: 'Objective',
-			ObjectivesDetails:
-				'Create a simple mobile application with Ionic and Angular 16, displaying "Hello World" on a mobile device.',
-			Technologies: [
-				{
-					title: 'Tools & Technologies',
-					techs: [
-						'Ionic',
-						'Typescript',
-						'Angular',
-						'Bootstrap',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Challenge',
-			ProjectDetails: [
-				{
-					id: uuidv4(),
-					details: [
-						'Skills highlighted:',
-						'Discovering Ionic and Angular 16: Learning Ionic and Angular 16 technologies for hybrid mobile application development.',
-						'Angular-like data structure: Use of existing Angular skills to facilitate learning the Ionic data structure.',
-						'Ionic-specific syntax: Master Ionic-specific syntax and concepts to create mobile user interfaces.',
-						'Creating an Android application with Ionic Capacitor: Use Ionic Capacitor to generate a native Android application from Ionic code.',
-						'Mobile development with Android Studio: Familiarity with Android Studio and Android development tools.',
-						'TypeScript and code reduction: Appreciation of the conciseness and efficiency of TypeScript code in mobile application development.',
-					]
-				},
-				{
-					id: uuidv4(),
-					details: [
-						'Project highlights:',
-						'First Ionic mobile application: Production of a functional mobile application, demonstrating basic skills in Ionic and Angular 16.',
-						'Continuous Ionic learning: Commitment to deepen Ionic knowledge to create more complex mobile applications.',
-						'Simple and intuitive user interface: Clear and concise display of the "Hello World" message on the mobile screen.',
-						'Solid foundation in mobile development: Previous experience in Java and Android Studio, making it easy to learn Ionic.',
-						'Efficient TypeScript code: Appreciation of the advantages of the TypeScript language for mobile development.',
-					]
-				},
-			],
-			SocialSharingHeading: 'Links',
-			SocialSharing: [
-				{
-					id: uuidv4(),
-					name: 'Github',
-					url: 'https://github.com/Misa100/ionic_app_h_w'
-				},
-			],
-		},
-	},
+	// {
+	// 	id: 6,
+	// 	title: 'HelloWorld App',
+	// 	url: 'hello-world-app',
+	// 	category: 'Application Mobile',
+	// 	img: '/images/web-project-30.png',
+	// 	ProjectHeader: {
+	// 		title: 'HelloWorld App (In progress)',
+	// 		publishDate: 'May 2024',
+	// 		tags: 'FullStack / Web App',
+	// 	},
+	// 	ProjectImages: [
+	// 		{
+	// 			id: uuidv4(),
+	// 			title: 'HelloWorld App',
+	// 			img: '/images/web-project-60.png',
+	// 		},
+	// 		{
+	// 			id: uuidv4(),
+	// 			title: 'HelloWorld App',
+	// 			img: '/images/web-project-61.png',
+	// 		},
+	// 		{
+	// 			id: uuidv4(),
+	// 			title: 'HelloWorld App',
+	// 			img: '/images/web-project-65.png',
+	// 		},
+	// 	],
+	// 	ProjectInfo: {
+	// 		ClientHeading: 'About Project',
+	// 		CompanyInfo: [
+	// 			{
+	// 				id: uuidv4(),
+	// 				title: 'Name',
+	// 				details: 'HelloWorldApp',
+	// 			},
+	// 			{
+	// 				id: uuidv4(),
+	// 				title: 'Link',
+	// 				details: 'https://github.com/Misa100/', //github
+	// 			},
+	// 			{
+	// 				id: uuidv4(),
+	// 				title: 'Phone',
+	// 				details: '+261 38 53 967 57',
+	// 			},
+	// 		],
+	// 		ObjectivesHeading: 'Objective',
+	// 		ObjectivesDetails:
+	// 			'Create a simple mobile application with Ionic and Angular 16, displaying "Hello World" on a mobile device.',
+	// 		Technologies: [
+	// 			{
+	// 				title: 'Tools & Technologies',
+	// 				techs: [
+	// 					'Ionic',
+	// 					'Typescript',
+	// 					'Angular',
+	// 					'Bootstrap',
+	// 				],
+	// 			},
+	// 		],
+	// 		ProjectDetailsHeading: 'Challenge',
+	// 		ProjectDetails: [
+	// 			{
+	// 				id: uuidv4(),
+	// 				details: [
+	// 					'Skills highlighted:',
+	// 					'Discovering Ionic and Angular 16: Learning Ionic and Angular 16 technologies for hybrid mobile application development.',
+	// 					'Angular-like data structure: Use of existing Angular skills to facilitate learning the Ionic data structure.',
+	// 					'Ionic-specific syntax: Master Ionic-specific syntax and concepts to create mobile user interfaces.',
+	// 					'Creating an Android application with Ionic Capacitor: Use Ionic Capacitor to generate a native Android application from Ionic code.',
+	// 					'Mobile development with Android Studio: Familiarity with Android Studio and Android development tools.',
+	// 					'TypeScript and code reduction: Appreciation of the conciseness and efficiency of TypeScript code in mobile application development.',
+	// 				]
+	// 			},
+	// 			{
+	// 				id: uuidv4(),
+	// 				details: [
+	// 					'Project highlights:',
+	// 					'First Ionic mobile application: Production of a functional mobile application, demonstrating basic skills in Ionic and Angular 16.',
+	// 					'Continuous Ionic learning: Commitment to deepen Ionic knowledge to create more complex mobile applications.',
+	// 					'Simple and intuitive user interface: Clear and concise display of the "Hello World" message on the mobile screen.',
+	// 					'Solid foundation in mobile development: Previous experience in Java and Android Studio, making it easy to learn Ionic.',
+	// 					'Efficient TypeScript code: Appreciation of the advantages of the TypeScript language for mobile development.',
+	// 				]
+	// 			},
+	// 		],
+	// 		SocialSharingHeading: 'Links',
+	// 		SocialSharing: [
+	// 			{
+	// 				id: uuidv4(),
+	// 				name: 'Github',
+	// 				url: 'https://github.com/Misa100/ionic_app_h_w'
+	// 			},
+	// 		],
+	// 	},
+	// },
 	{
 		id: 7,
 		title: 'Todo App',
 		url: 'todo-app',
 		category: 'Web Application',
-		img: '/images/web-project-33.png',
+		img: '/images/web-project-51.png',
 		ProjectHeader: {
 			title: 'Todo App (In progress)',
 			publishDate: 'July 2024',
@@ -650,18 +642,18 @@ export const projectsData = [
 			{
 				id: uuidv4(),
 				title: 'Todo App',
-				img: '/images/web-project-70.png',
+				img: '/images/todo-4.png',
 			},
-			// {
-			// 	id: uuidv4(),
-			// 	title: 'Todo App',
-			// 	img: '/images/web-project-61.png',
-			// },
-			// {
-			// 	id: uuidv4(),
-			// 	title: 'Todo App',
-			// 	img: '/images/web-project-65.png',
-			// },
+			{
+				id: uuidv4(),
+				title: 'Todo App',
+				img: '/images/todo-5.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Todo App',
+				img: '/images/todo-6.png',
+			},
 		],
 		ProjectInfo: {
 			ClientHeading: 'About Project',
@@ -684,7 +676,7 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objective',
 			ObjectivesDetails:
-				'Create a simple mobile application with Ionic and Angular 16, displaying "Hello World" on a mobile device.',
+				'Discover a sleek and responsive web application to manage your tasks effortlessly, anytime, on any device.',
 			Technologies: [
 				{
 					title: 'Tools & Technologies',

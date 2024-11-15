@@ -18,6 +18,16 @@ a {
 	box-sizing: border-box;
 }
 
+.mySwiper .swiper-pagination-bullet {
+	background-color: #fff;
+	opacity: 0.7;
+  }
+
+  .mySwiper .swiper-pagination-bullet-active {
+	background-color: #2C62EB;
+	opacity: 1;
+  }
+
 /* Fonts */
 @font-face {
 	font-family: 'GeneralSans-Variable';
