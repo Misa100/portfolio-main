@@ -726,7 +726,7 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					name: 'Render',
-					url: 'https://todo-app-react-django.onrender.com'
+					url: 'https://todo-app-react-django.onrender.com/api/todos'
 				},
 			],
 		},
