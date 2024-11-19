@@ -1,6 +1,13 @@
 const userData = {
     experience: [
       {
+        title: "Job",
+        company: "My Kiffe",
+        year: "2024",
+        companyLink: "https://mykiffe.com/",
+        desc: "UI/UX designer and front-end developer crafting pixel-perfect experiences with Next.js, Angular, and Figma.",
+      },
+      {
         title: "Internship",
         company: "Luminess Madagscar",
         year: "2024",
