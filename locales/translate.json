@@ -1,0 +1,14 @@
+{
+    "en": {
+      "projects": "Projects",
+      "about": "About Me",
+      "contact": "Contact",
+      "hireMe": "Hire Me"
+    },
+    "fr": {
+      "projects": "Projets",
+      "about": "À propos",
+      "contact": "Contact",
+      "hireMe": "Engagez-moi"
+    }
+  }

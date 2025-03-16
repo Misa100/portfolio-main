@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -7,6 +7,10 @@ import HireMeModal from '../HireMeModal';
 import logoLight from '../../public/images/logo-dark.png';
 import logoDark from '../../public/images/logo-light.png';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
+
+import { translatePage } from "../../lib/utils/translatePage";
+import Flag from 'react-world-flags';
+import translations from "../../locales/translate.json";
 
 function AppHeader() {
 	const [showMenu, setShowMenu] = useState(false);
@@ -34,6 +38,14 @@ function AppHeader() {
 			setShowModal(false);
 		}
 	}
+
+	const [language, setLanguage] = useState("en");
+
+	const t = translations[language];
+
+	useEffect(() => {
+		translatePage(language);
+	  }, [language]);
 
 	return (
 		<motion.nav
@@ -114,17 +126,17 @@ function AppHeader() {
 				>
 					<div className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2">
 						<Link href="/projects" aria-label="Projects">
-							Projects
+							{t.projects}
 						</Link>
 					</div>
 					<div className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/about" aria-label="About Me">
-							About Me
+							{t.about}
 						</Link>
 					</div>
 					<div className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/contact" aria-label="Contact">
-							Contact
+							{t.contact}
 						</Link>
 					</div>
 					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
@@ -133,7 +145,7 @@ function AppHeader() {
 							className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
 							aria-label="Hire Me Button"
 						>
-							Hire Me
+							{t.hireMe}
 						</button>
 					</div>
 				</div>
@@ -144,20 +156,20 @@ function AppHeader() {
 						className="block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
-						<Link href="/projects">Projects</Link>
+						<Link href="/projects">{t.projects}</Link>
 					</div>
 					<div
 						className="block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
-						<Link href="/about">About Me</Link>
+						<Link href="/about">{t.about}</Link>
 					</div>
 
 					<div
 						className="block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
-						<Link href="/contact">Contact</Link>
+						<Link href="/contact">{t.contact}</Link>
 					</div>
 				</div>
 
@@ -169,7 +181,7 @@ function AppHeader() {
 							className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 							aria-label="Hire Me Button"
 						>
-							Hire Me
+							{t.hireMe}
 						</button>
 					</div>
 
@@ -184,6 +196,15 @@ function AppHeader() {
 						) : (
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
 						)}
+					</div>
+					<div className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer">
+						<button onClick={() => setLanguage(language === "en" ? "fr" : "en")}>
+							{language === "en" ? (
+								<Flag code="FR" style={{ width: '30px', height: '20px' }} />
+							) : (
+								<Flag code="US" style={{ width: '30px', height: '20px' }} />
+							)}
+						</button>
 					</div>
 				</div>
 			</div>
